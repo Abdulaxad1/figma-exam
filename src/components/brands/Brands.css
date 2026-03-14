@@ -1,0 +1,40 @@
+.brands-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.brands-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.brands-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand-card {
+  flex: 1;
+  height: 120px;
+  background-color: #F8F8F8;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.brand-card:hover {
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.brand-card img {
+  max-width: 80%;
+  max-height: 60%;
+  filter: grayscale(100%); 
+}
