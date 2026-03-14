@@ -15,7 +15,7 @@ function App() {
     { id: 1, name: "ADIDAS 4DFWD X PARLEY RUNNING SHOES", price: 1125, oldPrice: 1500, img: "./images/phone.png", category: "Shoes", tag: "New" },
     { id: 2, name: "ADIDAS 4DFWD X PARLEY RUNNING SHOES", price: 1125, oldPrice: 1500, img: "./images/phone.png", category: "Shoes", tag: "New" },
     { id: 3, name: "ADIDAS 4DFWD X PARLEY RUNNING SHOES", price: 1125, oldPrice: 1500, img: "./images/phone.png", category: "Shoes", tag: "New" },
-    { id: 4, name: "ADIDAS 4DFWD X PARLEY RUNNING SHOES", price: 1125, oldPrice: 1500, img: "./images/phone .png", category: "Shoes", tag: "New" },
+    { id: 4, name: "ADIDAS 4DFWD X PARLEY RUNNING SHOES", price: 1125, oldPrice: 1500, img: "./images/phone.png", category: "Shoes", tag: "New" },
   ];
 
   const categories = [

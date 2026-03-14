@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FiSearch, FiShoppingCart, FiUser, FiMenu } from 'react-icons/fi';
-import { IoFlashOutline } from 'react-icons/io5';
-import Navbar from './Navbar';
-import './Header.css';
+import { Link } from "react-router-dom";
+import { FiSearch, FiShoppingCart, FiUser, FiMenu } from "react-icons/fi";
+import Navbar from "./Navbar";
+import "./Header.css";
 
 function Header(props) {
-
   const { categories, cartCount } = props;
 
   return (
@@ -20,7 +17,10 @@ function Header(props) {
         </div>
 
         <div className="search-bar">
-          <input type="text" placeholder="Search essential, products and select..." />
+          <input
+            type="text"
+            placeholder="Search essential, products and select..."
+          />
           <div className="search-icon-box">
             <FiSearch />
           </div>
@@ -36,11 +36,11 @@ function Header(props) {
           </div>
           <div className="action-divider">|</div>
           <Link to="/cart" className="action-item cart-link">
-            <FiShoppingCart /> Cart {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
+            <FiShoppingCart /> Cart{" "}
+            {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
           </Link>
         </div>
       </div>
-
 
       <Navbar categories={categories} />
     </header>
